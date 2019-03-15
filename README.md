@@ -1,7 +1,13 @@
 # Anomaly Detection Algorithms
 
-This repository aims to provide easy access to any [anomaly detection](https://en.wikipedia.org/wiki/Anomaly_detection) implementation available. The implementations are listed and tagged according to their approaches in a convinient way. It allows researchers and practitioners to easly find the solutions that better suit their needs (i.e. benchmarking, analysis, learning or deployment).
-Also, there are alternative repositories such as [anomaly-detection-resources](https://github.com/yzhao062/anomaly-detection-resources) and [awesome-anomaly-detection](https://github.com/hoya012/awesome-anomaly-detection) that provide recent papers, journals/conferences, courses, datasets, and libraries.
+This repository aims to provide easy access to any [anomaly detection](https://en.wikipedia.org/wiki/Anomaly_detection) implementation available. The implementations are listed and tagged according to their approaches in a convinient way. It allows researchers and practitioners to easily find the solutions that better suit their needs (i.e. benchmarking, analysis, learning or deployment).
+Also, there are related repositories that provide additional information for anomaly detection:
+
+- [anomaly-detection-resources](https://github.com/yzhao062/anomaly-detection-resources) - Recent papers, journals/conferences, courses, datasets and libraries.
+- [awesome-anomaly-detection](https://github.com/hoya012/awesome-anomaly-detection) - Recent papers on time series and image anomaly detection.
+- [awesome-TS-anomaly-detection](https://github.com/rob-med/awesome-TS-anomaly-detection) - Tools and datasets for anomaly detection on time-series data.
+
+
 
 
 ### Contents
