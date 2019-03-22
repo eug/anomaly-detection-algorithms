@@ -44,6 +44,7 @@ Also, there are related repositories that provide additional information for ano
 | ---- | ---------------------------------------- | ------- |
 | EMOutlier | [ELKI](https://elki-project.github.io/releases/current/javadoc/de/lmu/ifi/dbs/elki/algorithm/outlier/clustering/EMOutlier.html) | Cluster |
 | KMeans* | [ELKI](https://elki-project.github.io/algorithms) | Cluster |
+| [OPTICS-OF](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.46.6586&rep=rep1&type=pdf) | [ELKI](https://elki-project.github.io/releases/current/javadoc/de/lmu/ifi/dbs/elki/algorithm/outlier/OPTICSOF.html) | Density,Cluster |
 | [SilhouetteOutlier](https://pdfs.semanticscholar.org/f168/41e022038e94a59f7e0a82002102b78d79a4.pdf) | [ELKI](https://elki-project.github.io/releases/current/javadoc/de/lmu/ifi/dbs/elki/algorithm/outlier/clustering/SilhouetteOutlierDetection.html) | Cluster |
 
 
@@ -61,8 +62,10 @@ Also, there are related repositories that provide additional information for ano
 | [LOCI](https://bitquill.net/pdf/loci_icde03.pdf) | [PyOD](https://github.com/yzhao062/pyod) • [RapidMiner](https://github.com/Markus-Go/rapidminer-anomalydetection) • [ELKI](https://elki-project.github.io/releases/current/javadoc/de/lmu/ifi/dbs/elki/algorithm/outlier/lof/LOCI.html) • [DDOutlier](https://github.com/jhmadsen/DDoutlier/blob/master/R/OutlierFunctionLibrary.R) | Density |
 | [LOF](http://www.dbs.ifi.lmu.de/Publikationen/Papers/LOF.pdf)  | [PyOD](https://github.com/yzhao062/pyod) • [RapidMiner](https://github.com/Markus-Go/rapidminer-anomalydetection) • [ELKI](https://elki-project.github.io/algorithms) • [Scikit](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.LocalOutlierFactor.html#sklearn.neighbors.LocalOutlierFactor) • [DDOutlier](https://github.com/jhmadsen/DDoutlier/blob/master/R/OutlierFunctionLibrary.R)  | Density |
 | [LoOP](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.161.6229&rep=rep1&type=pdf) | [RapidMiner](https://github.com/Markus-Go/rapidminer-anomalydetection) • [ELKI](https://elki-project.github.io/releases/current/javadoc/de/lmu/ifi/dbs/elki/algorithm/outlier/lof/LoOP.html) • [DDOutlier](https://github.com/jhmadsen/DDoutlier/blob/master/R/OutlierFunctionLibrary.R) • [PyNomaly](https://github.com/vc1492a/PyNomaly)| Density |
+| [OPTICSOF](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.46.6586&rep=rep1&type=pdf) | [ELKI](https://elki-project.github.io/releases/current/javadoc/de/lmu/ifi/dbs/elki/algorithm/outlier/OPTICSOF.html) | Density,Cluster |
 | [RDOS](https://arxiv.org/abs/1606.08538) | [DDOutlier](https://github.com/jhmadsen/DDoutlier/blob/master/R/OutlierFunctionLibrary.R) | Density |
 | [RKOF](http://www.nlpr.ia.ac.cn/2011papers/gjhy/gh116.pdf) | [DDOutlier](https://github.com/jhmadsen/DDoutlier/blob/master/R/OutlierFunctionLibrary.R) | Density, Kernel |
+| [TROAD](http://dm.kaist.ac.kr/jaegil/papers/icde08.pdf) | [Trajectory](https://github.com/hansenrl/trajectory) | Distance,Density |
 
 
 ### Distance-based
@@ -75,6 +78,7 @@ Also, there are related repositories that provide additional information for ano
 | [LDOF](http://www.hutter1.net/ai/ldof.pdf) | [ELKI](https://elki-project.github.io/releases/current/javadoc/de/lmu/ifi/dbs/elki/algorithm/outlier/lof/LDOF.html) • [ADT](http://dsmi-lab-ntust.github.io/AnomalyDetectionToolbox/) [DDOutlier](https://github.com/jhmadsen/DDoutlier/blob/master/R/OutlierFunctionLibrary.R) | Distance |
 | [ODIN](http://cs.joensuu.fi/~villeh/icpr2004.pdf) | [ELKI](https://elki-project.github.io/releases/current/javadoc/de/lmu/ifi/dbs/elki/algorithm/outlier/distance/ODIN.html) | Distance |
 | [SOS](https://www.tilburguniversity.edu/upload/b7bac5b2-9b00-402a-9261-7849aa019fbb_sostr.pdf) | [PyOD](https://github.com/yzhao062/pyod) • [ELKI](https://elki-project.github.io/releases/current/javadoc/de/lmu/ifi/dbs/elki/algorithm/outlier/distance/SOS.html) | Distance |
+| [TROAD](http://dm.kaist.ac.kr/jaegil/papers/icde08.pdf) | [Trajectory](https://github.com/hansenrl/trajectory) | Distance,Density |
 
 
 ### Ensemble
@@ -143,6 +147,7 @@ Also, there are related repositories that provide additional information for ano
 | [Cochran](https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1469-1809.1941.tb02271.x) | [CRAN]( https://cran.r-project.org/web/packages/outliers/index.html) | Statistical |
 | [Dixon](http://depa.fquim.unam.mx/amyd/archivero/ac1951_23_636_13353.pdf) |  [CRAN]( https://cran.r-project.org/web/packages/outliers/index.html) | Statistical |
 | [Grubbs](https://projecteuclid.org/download/pdf_1/euclid.aoms/1177729885) | [CRAN]( https://cran.r-project.org/web/packages/outliers/index.html) • [Skyline](https://github.com/earthgecko/skyline/blob/master/skyline/analyzer/algorithms.py#L142) • [savanna-outliers](https://github.com/savanna-initiative/savanna-outliers)| Statistical |
+| [MCD](https://pdfs.semanticscholar.org/d656/2332ad9257b218e4ddcd73d1962d7d9930da.pdf) | [CerioliOD](https://github.com/christopherggreen/CerioliOutlierDetection/blob/master/R/cerioli10.fsrmcd.test.r) | Statistical |
 | StddevFromAvg | [Skyline](https://github.com/earthgecko/skyline/blob/master/skyline/analyzer/algorithms.py#L219) | Statistical |
 
 
@@ -190,10 +195,7 @@ Also, there are related repositories that provide additional information for ano
 | [IDOS](https://www.nii.ac.jp/TechReports/public_html/15-003E.pdf) | [ELKI](https://elki-project.github.io/releases/current/javadoc/de/lmu/ifi/dbs/elki/algorithm/outlier/intrinsic/IDOS.html) | Intrinsic Dimensionality |
 | [ISOS](https://dbs.ifi.uni-heidelberg.de/files/Team/eschubert/publications/SISAP17-itSNE-authorcopy.pdf) | [ELKI](https://elki-project.github.io/releases/current/javadoc/de/lmu/ifi/dbs/elki/algorithm/outlier/intrinsic/ISOS.html) | Intrinsic Dimensionality |
 | [KolmogorovEstimator](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.95.5827&rep=rep1&type=pdf) | [ADT](http://dsmi-lab-ntust.github.io/AnomalyDetectionToolbox/) | |
-| [MCD](https://pdfs.semanticscholar.org/d656/2332ad9257b218e4ddcd73d1962d7d9930da.pdf) | [CerioliOD](https://github.com/christopherggreen/CerioliOutlierDetection/blob/master/R/cerioli10.fsrmcd.test.r) |  |
-| [OPTICSOF](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.46.6586&rep=rep1&type=pdf) | [ELKI](https://elki-project.github.io/releases/current/javadoc/de/lmu/ifi/dbs/elki/algorithm/outlier/OPTICSOF.html) | |
-| [TextOut](https://epubs.siam.org/doi/pdf/10.1137/1.9781611974973.55) | [OutlierNMF](https://github.com/ramkikannan/outliernmf/blob/master/textoutliers.m) | |
-| [TROAD](http://dm.kaist.ac.kr/jaegil/papers/icde08.pdf) | [Trajectory](https://github.com/hansenrl/trajectory) | |
+| [TextOut](https://epubs.siam.org/doi/pdf/10.1137/1.9781611974973.55) | [OutlierNMF](https://github.com/ramkikannan/outliernmf/blob/master/textoutliers.m) | Categorical,Text|
 | ActiveOutlier | [OutlierDectionToolbox](https://github.com/gokererdogan/OutlierDetectionToolbox) | |
 | DRC | [ADT](http://dsmi-lab-ntust.github.io/AnomalyDetectionToolbox/) | |
 | ParzenWindows | [OutlierDectionToolbox](https://github.com/gokererdogan/OutlierDetectionToolbox) | |
