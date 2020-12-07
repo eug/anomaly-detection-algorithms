@@ -78,7 +78,7 @@ This repository aims to provide easy access to any [anomaly detection](https://e
 | [ODIN](http://cs.joensuu.fi/~villeh/icpr2004.pdf) | [ELKI](https://elki-project.github.io/releases/current/javadoc/de/lmu/ifi/dbs/elki/algorithm/outlier/distance/ODIN.html) | Distance |
 | [SOS](https://www.tilburguniversity.edu/upload/b7bac5b2-9b00-402a-9261-7849aa019fbb_sostr.pdf) | [PyOD](https://github.com/yzhao062/pyod) • [ELKI](https://elki-project.github.io/releases/current/javadoc/de/lmu/ifi/dbs/elki/algorithm/outlier/distance/SOS.html) | Distance |
 | [TROAD](http://dm.kaist.ac.kr/jaegil/papers/icde08.pdf) | [Trajectory](https://github.com/hansenrl/trajectory) | Distance,Density |
-
+|[Mahalanobis](https://docs.seldon.io/projects/alibi-detect/en/latest/methods/mahalanobis.html)|[alibi-detect](https://github.com/SeldonIO/alibi-detect)|Distance|
 
 ### Ensemble
 
@@ -123,11 +123,15 @@ This repository aims to provide easy access to any [anomaly detection](https://e
 
 | Name | Source Code                              | Tags    |
 | ---- | ---------------------------------------- | ------- |
-| [AutoEncoder](https://www.springer.com/br/book/9783319475776) | [PyOD](https://github.com/yzhao062/pyod) | Deep Learning |
 | [MO_GAAL](https://arxiv.org/abs/1809.10816) | [PyOD](https://github.com/yzhao062/pyod) • [GAAL-based](https://github.com/leibinghe/GAAL-based-outlier-detection) | Deep Learning |
 | [OE](https://arxiv.org/abs/1812.04606) | [outlier-exposure](https://github.com/hendrycks/outlier-exposure) | Deep Learning |
 | [SO_GAAL](https://arxiv.org/abs/1809.10816) | [PyOD](https://github.com/yzhao062/pyod) • [GAAL-based](https://github.com/leibinghe/GAAL-based-outlier-detection) | Deep Learning |
-
+| [Likelihood Ratios](https://docs.seldon.io/projects/alibi-detect/en/latest/methods/llr.html) | [alibi-detect](https://github.com/SeldonIO/alibi-detect) | Deep Learning |
+| [VAE](https://docs.seldon.io/projects/alibi-detect/en/latest/methods/vae.html) | [alibi-detect](https://github.com/SeldonIO/alibi-detect) | Deep Learning |
+| [VAEGMM](https://docs.seldon.io/projects/alibi-detect/en/latest/methods/vaegmm.html) | [alibi-detect](https://github.com/SeldonIO/alibi-detect) | Deep Learning |
+| [Auto-Encoder](https://docs.seldon.io/projects/alibi-detect/en/latest/methods/ae.html) | [PyOD](https://github.com/yzhao062/pyod) [alibi-detect](https://github.com/SeldonIO/alibi-detect) | Deep Learning |
+| [AEGMM](https://docs.seldon.io/projects/alibi-detect/en/latest/methods/aegmm.html) | [alibi-detect](https://github.com/SeldonIO/alibi-detect) | Deep Learning |
+| [Seq2Seq](https://docs.seldon.io/projects/alibi-detect/en/latest/methods/seq2seq.html) | [alibi-detect](https://github.com/SeldonIO/alibi-detect) | Deep Learning |
 
 ### Spatial
 
@@ -183,6 +187,8 @@ This repository aims to provide easy access to any [anomaly detection](https://e
 | EllipticEnvelope | [Scikit](https://scikit-learn.org/stable/modules/generated/sklearn.covariance.EllipticEnvelope.html#sklearn.covariance.EllipticEnvelope) | Time Series |
 | Skyline | [Skyline](https://github.com/earthgecko/skyline/blob/master/skyline/analyzer/algorithms.py) | Time Series |
 | [S-H-ESD](https://blog.twitter.com/engineering/en_us/a/2015/introducing-practical-and-robust-anomaly-detection-in-a-time-series.html) | [Twitter](https://github.com/twitter/AnomalyDetection) | Time Series |
+| [prophet](https://docs.seldon.io/projects/alibi-detect/en/latest/methods/prophet.html) | [alibi-detect](https://github.com/SeldonIO/alibi-detect) | Time Series |
+| [Spectral Residual](https://docs.seldon.io/projects/alibi-detect/en/latest/methods/sr.html) | [alibi-detect](https://github.com/SeldonIO/alibi-detect) | Time Series |
 
 
 ### Miscellaneous
