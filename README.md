@@ -88,7 +88,7 @@ This repository aims to provide easy access to any [anomaly detection](https://e
 | [Average of Maximum Combination](https://www.kdd.org/exploration_files/Article4.pdf) | [PyOD](https://github.com/yzhao062/pyod) | Ensemble |
 | [Bagging](https://dl.acm.org/citation.cfm?id=1081891) | [PyOD](https://github.com/yzhao062/pyod) • [OutlierDectionToolbox](https://github.com/gokererdogan/OutlierDetectionToolbox) | Ensemble |
 | [HiCS](https://ieeexplore.ieee.org/document/6228154) | [ELKI](https://elki-project.github.io/releases/current/javadoc/de/lmu/ifi/dbs/elki/algorithm/outlier/meta/HiCS.html) | Ensemble,Subspace |
-| [iForest](https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf) | [PyOD](https://github.com/yzhao062/pyod) • [ADT](http://dsmi-lab-ntust.github.io/AnomalyDetectionToolbox/) • [Scikit](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html#sklearn.ensemble.IsolationForest) | Ensemble |
+| [iForest](https://cs.nju.edu.cn/zhouzh/zhouzh.files/publication/icdm08b.pdf) | [PyOD](https://github.com/yzhao062/pyod) • [ADT](http://dsmi-lab-ntust.github.io/AnomalyDetectionToolbox/) • [Scikit](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html#sklearn.ensemble.IsolationForest) • [alibi-detect](https://docs.seldon.io/projects/alibi-detect/en/latest/methods/iforest.html) | Ensemble |
 | [LSCP](https://arxiv.org/abs/1812.01528) | [PyOD](https://github.com/yzhao062/pyod) | Ensemble |
 | [Maximization Combination](https://www.kdd.org/exploration_files/Article4.pdf) | [PyOD](https://github.com/yzhao062/pyod) | Ensemble |
 | [Maximization of Average Combination](https://www.kdd.org/exploration_files/Article4.pdf) | [PyOD](https://github.com/yzhao062/pyod)  | Ensemble |
@@ -129,7 +129,7 @@ This repository aims to provide easy access to any [anomaly detection](https://e
 | [Likelihood Ratios](https://docs.seldon.io/projects/alibi-detect/en/latest/methods/llr.html) | [alibi-detect](https://github.com/SeldonIO/alibi-detect) | Deep Learning |
 | [VAE](https://docs.seldon.io/projects/alibi-detect/en/latest/methods/vae.html) | [alibi-detect](https://github.com/SeldonIO/alibi-detect) | Deep Learning |
 | [VAEGMM](https://docs.seldon.io/projects/alibi-detect/en/latest/methods/vaegmm.html) | [alibi-detect](https://github.com/SeldonIO/alibi-detect) | Deep Learning |
-| [Auto-Encoder](https://docs.seldon.io/projects/alibi-detect/en/latest/methods/ae.html) | [PyOD](https://github.com/yzhao062/pyod) [alibi-detect](https://github.com/SeldonIO/alibi-detect) | Deep Learning |
+| [Auto-Encoder](https://docs.seldon.io/projects/alibi-detect/en/latest/methods/ae.html) | [PyOD](https://github.com/yzhao062/pyod) • [alibi-detect](https://github.com/SeldonIO/alibi-detect) | Deep Learning |
 | [AEGMM](https://docs.seldon.io/projects/alibi-detect/en/latest/methods/aegmm.html) | [alibi-detect](https://github.com/SeldonIO/alibi-detect) | Deep Learning |
 | [Seq2Seq](https://docs.seldon.io/projects/alibi-detect/en/latest/methods/seq2seq.html) | [alibi-detect](https://github.com/SeldonIO/alibi-detect) | Deep Learning |
 
